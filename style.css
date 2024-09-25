@@ -1,0 +1,309 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-padding-top: 6.5rem;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+}
+
+/*-------- header-1 --------*/
+.header-1 {
+  background-color: lightpink;
+  padding:
+   8px 80px;
+}
+
+span {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+#logo {
+  width: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-1 .navList #navbarSupportedContent{
+  display: flex;
+  justify-content: end;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:active {
+  color: white;
+}
+
+ li.nav-item {
+  margin: 0px 15px;
+}
+
+a.nav-link {
+  color: white;
+  font-weight: 600;
+  padding: 8px 0px;
+} 
+
+a.btn {
+  padding: 4px 16px;
+  background-color: white;
+  color: #fd788c;
+  font-weight: 600;
+}
+
+a.btn:hover {
+  color: #fd788c;
+  background-color: white;
+  border: 1px solid #fd788c;
+}
+
+/*-------- home --------*/
+
+.home {
+  padding: 16px 80px;
+  background-color: white;
+}
+
+.home .content span {
+  font-size: 32px;
+  color: #fd788c;
+  font-family: "Prata", serif;
+}
+
+.home .content h3 {
+  font-size: 55px;
+  color: #000;
+  font-family: "Prata", serif;
+}
+
+.home .content button {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: #fd788c;
+  padding: 10px 20px;
+  padding: 10px 20px;
+}
+
+.home .content button:hover {
+  color: #fd788c;
+  background-color: white;
+  border: 1px solid #fd788c;
+}
+/*-------- deal --------*/
+
+#deal {
+  background-image: url('images/deal.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 16px 80px;
+}
+
+#deal .content {
+  max-width: 50rem;
+}
+
+#deal .content .title {
+  font-size: 40px;
+  color: #fd788c;
+}
+
+#deal .content p {
+  color: #333;
+  min-width: 200px;
+  max-width: 600px;
+  font-size: 18px;
+  padding: 16px 0px;
+}
+
+#deal .content .deal-container {
+  padding: 16px 0px 16px 12px;
+}
+
+#deal .content .deal-container .box {
+  width: 15%;
+  text-align: center;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+#deal .content .deal-container .box h3 {
+  color: #fd788c;
+  width: 100%;
+  height: 65px;
+  font-size: 40px;
+  line-height: 65px;
+  background-color: #fff;
+}
+
+#deal .content .deal-container .box span {
+  display: block;
+  width: 100%;
+  padding: 4px;
+  color: #fff;
+  font-size: 16px;
+  background-color: #fd788c;
+}
+
+#deal .content button {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: #fd788c;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+#deal .content button:hover {
+  color: #fd788c;
+  padding: 10px 20px;
+  background-color: white;
+  border: 1px solid #fd788c;
+}
+
+/*-------- contact --------*/
+
+#contact {
+  padding: 16px 80px;
+}
+
+#contact .heading{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#contact .heading span {
+  font-size: 40px;
+  color: #fd788c;
+}
+
+#contact form {
+  text-align: center;
+  padding: 16px;
+  border: 1px solid pink;
+}
+
+#contact .form-control {
+  background-color: #f7f7f7;
+  border: 1px solid pink;
+}
+
+#contact button {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: #fd788c;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+#contact button:hover {
+  color: #fd788c;
+  background-color: white;
+  border: 1px solid #fd788c;
+}
+
+/*-------- subscribe --------*/
+
+.subscribe {
+  background-image: url('images/subscribe.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 30px 80px;
+}
+
+.subscribe .subs-heading {
+  color: #000;
+  font-size: 32px;
+  padding: 16px 0px;
+  text-transform: uppercase;
+}
+
+.subscribe form {
+  margin: 16px 0px;
+  padding: 18px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.subscribe form .email {
+  color: #333;
+}
+
+.subscribe button {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: #fd788c;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.subscribe button:hover {
+  color: #fd788c;
+  padding: 10px 20px;
+  background-color: white;
+}
+
+/*-------- subscribe --------*/
+
+.footer {
+  padding: 8px 80px;
+}
+
+.footer .box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer .box-container .box {
+  padding: 16px 16px;
+}
+
+.footer .box-container .share a {
+  color: #fff;
+  padding: 5px;
+  width: 25px;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #fd788c;
+}
+
+.footer .box-container .share a:hover {
+  color: #fd788c;
+  padding: 10px 20px;
+  background-color: white;
+  border: 1px solid #fd788c;
+}
+
+.footer h5{
+  color: black;
+  margin: 10px 0px;
+  font-weight: 600;
+}
+
+@media (min-width: 300px) and (max-width: 991px) {
+  ul.navbar-nav.mb-2.mb-lg-0 {
+    display: none;
+  }
+}
